@@ -1,0 +1,18 @@
+# Ignore environment configuration files
+*.env
+*application.properties
+
+# Ignore secrets or keys
+*.key
+*.pem
+*.token
+*.secret
+*.credentials
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.cache
+
+# Ignore sensitive files for local development
+*.local
